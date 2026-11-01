@@ -81,8 +81,7 @@ fun AppIconView(
                         .align(Alignment.TopEnd)
                         .size(iconSize * 0.24f)
                         .clip(CircleShape)
-                        .background(Color.White)
-                        .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.0f)),
+                        .background(Color.White),
                 ) {
                     Box(
                         Modifier
@@ -106,9 +105,7 @@ fun AppIconView(
                     fontSize = 12.sp,
                     shadow = androidx.compose.ui.graphics.Shadow(Color(0x99000000), Offset(0f, 1.5f), 4f),
                 ) else MaterialTheme.typography.labelSmall.copy(fontSize = 12.sp),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .then(Modifier),
+                modifier = Modifier.fillMaxWidth(),
             )
         }
     }
