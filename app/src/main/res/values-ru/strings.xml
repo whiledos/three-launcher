@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Three Launcher</string>
+
+    <!-- Home / menus -->
+    <string name="search_apps">Поиск приложений</string>
+    <string name="search_web">Искать в интернете «%1$s»</string>
+    <string name="wallpaper_style">Обои и стиль</string>
+    <string name="widgets">Виджеты</string>
+    <string name="widgets_count">Виджетов: %1$d</string>
+    <string name="home_settings">Настройки главного экрана</string>
+    <string name="app_info">О приложении</string>
+    <string name="uninstall">Удалить</string>
+    <string name="remove">Убрать</string>
+    <string name="resize">Изменить размер</string>
+    <string name="width">Ширина</string>
+    <string name="height">Высота</string>
+    <string name="done">Готово</string>
+    <string name="cancel">Отмена</string>
+    <string name="reset">Сбросить</string>
+    <string name="later">Позже</string>
+    <string name="folder_default">Папка</string>
+    <string name="next_alarm">Будильник: %1$s</string>
+    <string name="no_app_found">Не найдено подходящее приложение</string>
+    <string name="set_default_title">Сделайте лаунчер основным</string>
+    <string name="set_default_text">Назначьте Three Launcher главным экраном по умолчанию</string>
+    <string name="set_default_button">Назначить</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки главного экрана</string>
+    <string name="settings_home">Главный экран</string>
+    <string name="settings_home_desc">Сетка, док, размер значков, раскладка</string>
+    <string name="settings_style">Значки и стиль</string>
+    <string name="settings_style_desc">Форма значков, тематические значки, цвета</string>
+    <string name="settings_drawer">Список приложений</string>
+    <string name="settings_drawer_desc">Столбцы, предложения, скрытые приложения</string>
+    <string name="settings_gestures">Жесты</string>
+    <string name="settings_gestures_desc">Свайп вверх и вниз</string>
+    <string name="settings_about">О лаунчере</string>
+
+    <string name="glance">Обзор</string>
+    <string name="glance_desc">Показывать дату и ближайший будильник на главном экране</string>
+    <string name="search_bar">Строка поиска</string>
+    <string name="search_bar_desc">Показывать строку поиска Google внизу</string>
+    <string name="show_labels">Показывать названия приложений</string>
+    <string name="auto_add">Добавлять новые приложения на экран</string>
+    <string name="auto_add_desc">Размещать установленные приложения на главном экране</string>
+    <string name="lock_layout">Заблокировать раскладку</string>
+    <string name="lock_layout_desc">Запретить перемещать и убирать значки</string>
+    <string name="allow_rotation">Разрешить поворот главного экрана</string>
+    <string name="grid_columns">Столбцов в сетке</string>
+    <string name="grid_rows">Строк в сетке</string>
+    <string name="dock_icons">Значков в доке</string>
+    <string name="icon_size">Размер значков</string>
+    <string name="reset_layout">Сбросить главный экран</string>
+    <string name="reset_layout_desc">Вернуть раскладку значков по умолчанию</string>
+    <string name="reset_layout_confirm">Текущая раскладка главного экрана будет заменена раскладкой по умолчанию.</string>
+
+    <string name="icon_shape">Форма значков</string>
+    <string name="shape_system">Системная</string>
+    <string name="shape_circle">Круг</string>
+    <string name="shape_squircle">Сквиркл</string>
+    <string name="shape_rounded">Скруглённый квадрат</string>
+    <string name="shape_teardrop">Капля</string>
+    <string name="shape_square">Квадрат</string>
+    <string name="themed_icons">Тематические значки</string>
+    <string name="themed_icons_desc">Окрашивать значки приложений в цвета обоев</string>
+    <string name="themed_icons_unsupported">Нужен Android 13 или новее</string>
+    <string name="notification_dots">Точки уведомлений</string>
+    <string name="notification_dots_desc">Показывать точку на приложениях с уведомлениями</string>
+    <string name="notification_dots_permission">Нажмите, чтобы выдать доступ к уведомлениям</string>
+    <string name="dynamic_color">Цвета обоев</string>
+    <string name="dynamic_color_desc">Использовать цвета Material You из обоев</string>
+    <string name="theme_mode">Тема</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+
+    <string name="drawer_columns">Столбцов в списке</string>
+    <string name="drawer_suggestions">Предлагаемые приложения</string>
+    <string name="drawer_suggestions_desc">Показывать часто используемые приложения сверху</string>
+    <string name="drawer_sort">Сортировка приложений</string>
+    <string name="sort_az">А — Я</string>
+    <string name="sort_za">Я — А</string>
+    <string name="sort_new">Сначала новые</string>
+    <string name="drawer_opacity">Непрозрачность фона</string>
+    <string name="drawer_blur">Размытие обоев</string>
+    <string name="drawer_blur_desc">Размывать обои за списком приложений</string>
+    <string name="hidden_apps">Скрытые приложения</string>
+    <string name="hidden_count">Скрыто: %1$d</string>
+
+    <string name="swipe_up">Свайп вверх открывает список</string>
+    <string name="swipe_up_desc">Смахните вверх на главном экране, чтобы открыть приложения</string>
+    <string name="swipe_down">Свайп вниз на главном экране</string>
+    <string name="swipe_down_notifications">Шторка уведомлений</string>
+    <string name="swipe_down_search">Поиск приложений</string>
+    <string name="swipe_down_none">Ничего не делать</string>
+
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_text">Лаунчер в стиле Pixel для Android 12 и новее: цвета Material You, тематические значки, точки уведомлений, виджеты, папки, быстрые действия приложений и поиск внизу.</string>
+</resources>

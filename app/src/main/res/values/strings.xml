@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Three Launcher</string>
+
+    <!-- Home / menus -->
+    <string name="search_apps">Search apps</string>
+    <string name="search_web">Search the web for “%1$s”</string>
+    <string name="wallpaper_style">Wallpaper &amp; style</string>
+    <string name="widgets">Widgets</string>
+    <string name="widgets_count">%1$d widgets</string>
+    <string name="home_settings">Home settings</string>
+    <string name="app_info">App info</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="remove">Remove</string>
+    <string name="resize">Resize</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <string name="later">Later</string>
+    <string name="folder_default">Folder</string>
+    <string name="next_alarm">Next alarm: %1$s</string>
+    <string name="no_app_found">No app found to handle this</string>
+    <string name="set_default_title">Make it your home app</string>
+    <string name="set_default_text">Set Three Launcher as your default home app</string>
+    <string name="set_default_button">Set</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Home settings</string>
+    <string name="settings_home">Home screen</string>
+    <string name="settings_home_desc">Grid, dock, icon size, layout</string>
+    <string name="settings_style">Icons &amp; style</string>
+    <string name="settings_style_desc">Icon shape, themed icons, colors</string>
+    <string name="settings_drawer">App drawer</string>
+    <string name="settings_drawer_desc">Columns, suggestions, hidden apps</string>
+    <string name="settings_gestures">Gestures</string>
+    <string name="settings_gestures_desc">Swipe up, swipe down</string>
+    <string name="settings_about">About</string>
+
+    <string name="glance">At a glance</string>
+    <string name="glance_desc">Show date and next alarm on the home screen</string>
+    <string name="search_bar">Search bar</string>
+    <string name="search_bar_desc">Show the Google search bar at the bottom</string>
+    <string name="show_labels">Show app names</string>
+    <string name="auto_add">Add new apps to Home screen</string>
+    <string name="auto_add_desc">Place newly installed apps on the home screen</string>
+    <string name="lock_layout">Lock home screen layout</string>
+    <string name="lock_layout_desc">Prevent moving and removing icons</string>
+    <string name="allow_rotation">Allow home screen rotation</string>
+    <string name="grid_columns">Grid columns</string>
+    <string name="grid_rows">Grid rows</string>
+    <string name="dock_icons">Dock icons</string>
+    <string name="icon_size">Icon size</string>
+    <string name="reset_layout">Reset home screen</string>
+    <string name="reset_layout_desc">Restore the default icon layout</string>
+    <string name="reset_layout_confirm">Your current home screen layout will be replaced with the default one.</string>
+
+    <string name="icon_shape">Icon shape</string>
+    <string name="shape_system">System default</string>
+    <string name="shape_circle">Circle</string>
+    <string name="shape_squircle">Squircle</string>
+    <string name="shape_rounded">Rounded square</string>
+    <string name="shape_teardrop">Teardrop</string>
+    <string name="shape_square">Square</string>
+    <string name="themed_icons">Themed icons</string>
+    <string name="themed_icons_desc">Tint supported app icons with your wallpaper colors</string>
+    <string name="themed_icons_unsupported">Requires Android 13 or newer</string>
+    <string name="notification_dots">Notification dots</string>
+    <string name="notification_dots_desc">Show a dot on apps with notifications</string>
+    <string name="notification_dots_permission">Tap to grant notification access</string>
+    <string name="dynamic_color">Wallpaper colors</string>
+    <string name="dynamic_color_desc">Use Material You colors from your wallpaper</string>
+    <string name="theme_mode">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="drawer_columns">Drawer columns</string>
+    <string name="drawer_suggestions">Suggested apps</string>
+    <string name="drawer_suggestions_desc">Show your most used apps at the top</string>
+    <string name="drawer_sort">Sort apps</string>
+    <string name="sort_az">A to Z</string>
+    <string name="sort_za">Z to A</string>
+    <string name="sort_new">Newest first</string>
+    <string name="drawer_opacity">Background opacity</string>
+    <string name="drawer_blur">Blur wallpaper</string>
+    <string name="drawer_blur_desc">Blur the wallpaper behind the app drawer</string>
+    <string name="hidden_apps">Hidden apps</string>
+    <string name="hidden_count">%1$d hidden</string>
+
+    <string name="swipe_up">Swipe up to open apps</string>
+    <string name="swipe_up_desc">Swipe up on the home screen to open the app drawer</string>
+    <string name="swipe_down">Swipe down on Home</string>
+    <string name="swipe_down_notifications">Notification shade</string>
+    <string name="swipe_down_search">Search apps</string>
+    <string name="swipe_down_none">Do nothing</string>
+
+    <string name="about_version">Version %1$s</string>
+    <string name="about_text">A Pixel-style launcher for Android 12 and newer: Material You colors, themed icons, notification dots, widgets, folders, app shortcuts and a bottom search bar.</string>
+</resources>
