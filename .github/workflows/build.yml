@@ -5,6 +5,11 @@ on:
     branches: ['**']
     tags: ['v*']
   workflow_dispatch:
+    inputs:
+      release_tag:
+        description: 'Создать релиз с этим тегом (например v1.0). Пусто — только сборка.'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -35,8 +40,18 @@ jobs:
           name: ThreeLauncher-apk
           path: dist/ThreeLauncher.apk
 
-      - name: Publish release (tags only)
+      - name: Publish release (tag push)
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
+          files: dist/ThreeLauncher.apk
+
+      - name: Publish release (manual run)
+        if: github.event_name == 'workflow_dispatch' && inputs.release_tag != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          target_commitish: ${{ github.sha }}
+          name: Three Launcher ${{ inputs.release_tag }}
+          generate_release_notes: true
           files: dist/ThreeLauncher.apk
